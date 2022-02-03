@@ -1,0 +1,128 @@
+.nav{
+    height:10vh;
+    width:50%;
+    text-align:left;
+    padding: 2%;
+    position:fixed;
+    background-color: #12232e;
+}
+.link{
+    font-size: x-large;
+    color: white;
+    padding: 2%;
+    margin-left: 5%;
+}
+
+.link:hover{
+    
+    border-bottom: 1px solid white;
+    padding: 2%;
+    cursor:pointer;
+    
+    margin-left: 5%;
+    color: #007cc7;
+
+}
+
+.on{font-size:30px;cursor:pointer;}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    
+  }
+  
+  .link1{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+    .link1:hover, .link1:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  .Openbtn{
+    position: absolute;
+    top: 20px;
+    left:2;
+    font-size: 50px;
+    display: none;
+  }
+  .totop{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    text-align: center;
+    padding-top:1%;
+    margin: 0;
+  }
+  .totop:hover{
+    cursor: pointer;
+    background-color: rgb(211, 211, 211);
+    border: 10px solid white;
+    border-radius: 50%;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    text-align: center;
+    padding-top:1.2%;
+  }
+  ::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
+@media screen and (max-width:780px) 
+{
+  .Openbtn{
+    display: block;
+    
+  }
+  .link{
+    display: none;
+  }
+  .nav{
+    height:10vh;
+    width:70%;
+    text-align:left;
+    padding: 2%;
+    position:fixed;
+    background-color:transparent;
+}
+}

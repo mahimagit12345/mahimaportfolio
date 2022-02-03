@@ -1,0 +1,242 @@
+.outer-box{
+border-left: 20px solid #007cc7;
+height:100vh;
+width:100%;
+background-color:#12232e;
+margin-bottom: 0;
+
+}
+
+.lfbx{
+    height: 100%;
+    width: 50%;
+    float: left;
+    
+}
+
+.title-box{
+    width:50%;
+    height:40%;    
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: leftr;
+    background-color: #12232e;
+    color: white;
+    padding-top: 10%;
+    
+}
+
+
+
+.content-box{
+    width:33%;
+    height:15%;
+    display: flex;
+    
+    color: white;
+    background-color: #12232e;
+    
+}
+
+.image-box{
+    width:20%;
+    height:100%;
+    align-items: center;        
+    text-align: center;
+}
+
+.c-icon{
+    max-width :100%;;
+    max-height: 100%;
+    
+}
+
+.contact{
+    width:80%;
+    height:100%;
+    font-size: 1.5vw;
+    padding: 4%;
+}
+.rgbx{
+    height: 100%;
+    width: 50%;
+    background-color:#007cc7 ;
+    float: left;
+}
+form{padding: 5%;}
+
+.dsc{
+    display: flex;
+    padding: 2%;
+    height: 10vh;
+    
+    font-size: 1.6vw;
+}
+.contform{
+    height: 90vh;
+    
+   
+}
+input[type="text"]{
+    background-color:#007cc7 ;
+    border: hidden;
+    width: 70%;
+    padding: 3%;
+    margin: 2%;
+    border-bottom: 5px solid black;
+    font-size: larger;
+    color: white;
+
+    
+}
+input[type="email"]{
+    background-color:#007cc7 ;
+    border: hidden;
+    width: 70%;
+    padding: 4%;
+    margin: 2%;
+    border-bottom: 5px solid black;
+    font-size: larger;
+    color: white;
+}
+textarea{
+    background-color:#bdc3c7 ;
+    resize: none;
+    margin: 3%;
+    padding: 4%;
+    width: 70%;
+    border: none;
+    border-bottom: 5px solid black;
+    font-size: larger;
+    color: white;
+}
+input[type="submit"]{
+    background-color:white;
+    border: none;
+    height: 10%;
+    width: 20%;
+    padding: 4%;
+    margin: 3%;
+    text-align: center;
+}
+::placeholder {
+    color: white;
+    font-size: 1.5vw;
+  }
+
+@media screen and (max-width:780px){
+    .outer-box{
+        height:100vh;
+        width:100%;
+        
+        }
+      
+
+    .content-box{
+            width:100%;
+            height:23%;
+            display: flex;
+            
+            
+            
+        }
+        
+        .image-box{
+            width:20%;
+            height:100%;
+            align-items: center;        
+            text-align: center;
+        }
+        
+        .c-icon{
+            max-width :100%;;
+            max-height: 100%;
+            
+        }
+
+        .contact{
+            margin: 0;
+            font-size: 4vw;
+            padding: 4%;
+        }
+
+        .title-box{
+            width:100%;
+            height:10%;
+            font-size: 3.5vw;
+            font-weight: bold;
+            text-align: center;
+            padding: 7%;
+            
+        }
+        .image-box{
+            width:20%;
+            height:100%;
+            padding:5%;
+            align-items: center;        
+            text-align: center;
+        }
+        .lfbx{
+            height: 40%;
+            width: 100%;
+            margin-bottom: 0;
+        }
+        .rgbx{
+            height: 60%;
+            width: 100%;
+            background-color:#007cc7 ;
+            
+        }
+        .dsc{
+            display: flex;
+            padding: 2%;
+            height: 10%;
+            
+            font-size: 3vw;
+        }
+        input[type="text"]{
+            background-color:#007cc7 ;
+            border: hidden;
+            width: 50%;
+            padding: 3%;
+            margin: 2%;
+           border-bottom: 2px solid black;
+            font-size: larger;
+            color: white;
+            
+        }
+        input[type="email"]{
+            background-color:#007cc7 ;
+            border: hidden;
+            width: 50%;
+            padding: 3%;
+            margin: 2%;
+            border-bottom: 2px solid black;
+            font-size: larger;
+            color: white;
+        }
+        textarea{
+            background-color:#bdc3c7 ;
+            resize: none;
+            margin: 2%;
+            padding: 2%;
+            width: 50%;
+            border: none;
+            
+            font-size: larger;
+            color: white;
+        }
+        input[type="submit"]{
+            background-color:white;
+            border: none;
+            height: 10%;
+            width: 20%;
+            padding: 3%;
+            margin: 2%;
+            text-align: center;
+        }
+        ::placeholder {
+            color: white;
+            font-size: 1.5vw;
+          }
+}
