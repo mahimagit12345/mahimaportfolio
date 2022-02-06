@@ -194,6 +194,13 @@ input[type="submit"]{
             
             font-size: 3vw;
         }
+        .contform{
+            height: 90%;
+            
+
+            
+           
+        }
         input[type="text"]{
             background-color:#007cc7 ;
             border: hidden;
