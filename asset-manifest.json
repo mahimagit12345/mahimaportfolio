@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mahimaportfolio/static/css/main.ca4f3b04.css",
+    "main.css": "/mahimaportfolio/static/css/main.599a5b08.css",
     "main.js": "/mahimaportfolio/static/js/main.a6fd6cc3.js",
     "static/media/mahim.png": "/mahimaportfolio/static/media/mahim.b136dd63c0204b54bbee.png",
     "static/media/Location.png": "/mahimaportfolio/static/media/Location.6ff11729a72a43a74265.png",
@@ -11,11 +11,11 @@
     "static/media/css-3.png": "/mahimaportfolio/static/media/css-3.f341ce9338145d2e94c1.png",
     "static/media/html-5.png": "/mahimaportfolio/static/media/html-5.e04860d37b7c17ec228d.png",
     "index.html": "/mahimaportfolio/index.html",
-    "main.ca4f3b04.css.map": "/mahimaportfolio/static/css/main.ca4f3b04.css.map",
+    "main.599a5b08.css.map": "/mahimaportfolio/static/css/main.599a5b08.css.map",
     "main.a6fd6cc3.js.map": "/mahimaportfolio/static/js/main.a6fd6cc3.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca4f3b04.css",
+    "static/css/main.599a5b08.css",
     "static/js/main.a6fd6cc3.js"
   ]
 }
